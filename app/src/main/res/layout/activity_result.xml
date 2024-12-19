@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    tools:context=".MainActivity">
+    tools:context=".ResultActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarMain"
@@ -19,15 +19,15 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/photoMainIV"
+        android:id="@+id/photoResultIV"
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:padding="12dp"
         android:src="@drawable/ic_some_person"/>
 
 
-    <EditText
-        android:id="@+id/nameMainET"
+    <TextView
+        android:id="@+id/nameResultTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
@@ -35,8 +35,8 @@
         android:gravity="center"
         android:hint="@string/hint_name_edit_text_main_activity"/>
 
-    <EditText
-        android:id="@+id/surnameMainET"
+    <TextView
+        android:id="@+id/surnameResultTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
@@ -44,47 +44,14 @@
         android:gravity="center"
         android:hint="@string/hint_surname_edit_text_main"/>
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/dateBirhdayResultTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <EditText
-            android:id="@+id/dayBirthdayMainET"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:padding="12dp"
-            android:gravity="center"
-            android:hint="@string/hint_day_birthday_edit_text"/>
-
-        <EditText
-            android:id="@+id/monthBirthdayMainET"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:padding="12dp"
-            android:gravity="center"
-            android:hint="@string/hint_month_birthday_edit_text"/>
-
-        <EditText
-            android:id="@+id/yearBirthdayMainET"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:padding="12dp"
-            android:gravity="center"
-            android:hint="@string/hint_year_birthday_edit_text"/>
-
-    </LinearLayout>
-
-
-    <Button
-                        android:id="@+id/saveBTN"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/name_text_save_button"
+        android:textSize="20dp"
         android:padding="12dp"
-        android:textSize="18dp"/>
+        android:gravity="center"
+        android:hint="@string/hint_date_text_view_result"/>
+
 
 </LinearLayout>

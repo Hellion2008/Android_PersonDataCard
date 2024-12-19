@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Android_PersonDataCard</string>
+    <string name="hint_name_edit_text_main_activity">Имя человека</string>
+    <string name="hint_surname_edit_text_main">Фамилия человека</string>
+    <string name="hint_day_birthday_edit_text">День</string>
+    <string name="hint_month_birthday_edit_text">Месяц</string>
+    <string name="hint_year_birthday_edit_text">Год Рождения</string>
+    <string name="name_text_save_button">Сохранить</string>
+    <string name="hint_date_text_view_result">До дня рождения</string>
+    <string name="exit">Выход</string>
 </resources>
